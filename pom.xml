@@ -197,12 +197,6 @@
 </dependency>
              
              
-<exclusions>
-            <exclusion>
-                <artifactId>tools</artifactId>
-                <groupId>com.sun</groupId>
-            </exclusion>
-        </exclusions>
       <dependency>
         <groupId>javax.servlet.jsp</groupId>
         <artifactId>jsp-api</artifactId>
@@ -244,6 +238,13 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+         
+<exclusions>
+            <exclusion>
+                <artifactId>tools</artifactId>
+                <groupId>com.sun</groupId>
+            </exclusion>
+        </exclusions>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
